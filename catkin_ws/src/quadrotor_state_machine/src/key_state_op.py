@@ -17,7 +17,7 @@ from quadrotor_state_machine.msg import StateCommand
 
 
 class Key_State_Op():
-    def menu(self):
+    '''def menu(self):
         ##FlyingState
         print ("Press")
         print ("A: to set mode to ARM the drone")
@@ -28,6 +28,13 @@ class Key_State_Op():
         print ("F: to set mode to FlyingState")
         print ("L: to set mode to LAND")
         print ("LO: print GPS coordinates")
+        print ("E: to exit")
+    '''
+	def menu(self):
+        ##FlyingState
+        print ("Press")
+        print ("A: to set mode to ARM the drone")
+        print ("S: to set mode to STABILIZE")
         print ("E: to exit")
 
     def publish(self, str):
