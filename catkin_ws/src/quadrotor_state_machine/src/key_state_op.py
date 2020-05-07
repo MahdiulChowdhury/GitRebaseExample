@@ -29,6 +29,12 @@ class Key_State_Op():
         print ("L: to set mode to LAND")
         print ("LO: print GPS coordinates")
         print ("E: to exit")
+   def rebaseExample(self):
+        ##FlyingState
+        print ("Press")
+        '''Dome Somthing'''
+        ''' do something'''
+	print("do something") 
 
     def publish(self, str):
         print ('state_machine/command <- ', str)
