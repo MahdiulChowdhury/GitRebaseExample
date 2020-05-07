@@ -78,14 +78,16 @@ class StateMachine():
 
     def run(self):
         """Polls the current state every 100ms to run"""
-        self.rate = rospy.Rate(10)
+        '''self.rate = rospy.Rate(10)
         while not rospy.is_shutdown():
             if self.current_state in self.states:
                 self.states[self.current_state].run()
             else:
                 rospy.logerr("State %s not in dictionary" % self.current_state)
                 self._add_state(self.current_state)
-            self.rate.sleep()
+            self.rate.sleep()'''
+	print ("this function completely rewritten")
+	string = "hello"+"do somethign" 
 
 if __name__ == '__main__':
     sm = StateMachine()
