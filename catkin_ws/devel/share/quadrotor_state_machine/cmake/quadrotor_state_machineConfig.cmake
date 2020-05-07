@@ -1,0 +1,1 @@
+/home/ubuntu/Quadrotor/catkin_ws/devel/.private/quadrotor_state_machine/share/quadrotor_state_machine/cmake/quadrotor_state_machineConfig.cmake

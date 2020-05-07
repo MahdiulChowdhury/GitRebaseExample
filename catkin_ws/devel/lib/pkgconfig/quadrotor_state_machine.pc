@@ -1,0 +1,1 @@
+/home/ubuntu/Quadrotor/catkin_ws/devel/.private/quadrotor_state_machine/lib/pkgconfig/quadrotor_state_machine.pc
